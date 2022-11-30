@@ -32,7 +32,28 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.labels {
+  margin-right: 10px;
+  text-align: left !important;
+}
+
+.bg {
+  background-color: blanchedalmond;
+}
+
+
+.seperate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seperate button {
+  margin: 0 5px;
 }
